@@ -1,4 +1,4 @@
-//เพิ่มเสียงคลิป
+เพิ่มเสียงคลิป
 var videoElement = document.querySelector('video')
 var audioCtx = new AudioContext()
 var source = audioCtx.createMediaElementSource(videoElement)
@@ -7,5 +7,5 @@ gainNode.gain.value =
 source.connect(gainNode)
 gainNode.connect(audioCtx.destination)
 
-//เพิ่มความเร็วคลิป
+เพิ่มความเร็วคลิป
 document.querySelector('video').playbackRate = ;
